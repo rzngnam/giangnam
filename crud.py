@@ -15,7 +15,9 @@ elif action == "c":
 elif action == "u":
     pos = int(input("Enter new position :"))
     newitems = input("Enter new items :")
-    items.insert(newitems)
+    items.insert(pos,newitems)
+    print("our items : ")
+    print(*items, sep=",")
 
 elif action == "d":
     deletepos = int(input("Delete position :"))
