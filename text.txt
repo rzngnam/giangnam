@@ -1,0 +1,16 @@
+A boolean value is either true or false.
+ex : 
+- 15 > 16 (false)
+- 18 == 18 (true)
+- 19 > 0 (true)
+flow chart is:
+a graphical representation of a computer program in relation to its sequence of functions
+nested conditional is:
+conditional that contains another conditional statements
+ex :
+if x < y:
+	print("a")
+elif x > y:	 
+	print("b")
+else: 
+	print("c")
