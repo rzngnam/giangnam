@@ -22,3 +22,7 @@ elif action == "d":
     items.pop(deletepos-1)
     print("our items : ")
     print(*items, sep=",")
+
+
+
+
