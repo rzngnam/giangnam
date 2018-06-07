@@ -36,6 +36,7 @@ num = int(input("Enter your number of 1's 0's ? "))
 x = 1
 number = []
 
+
 for _ in range((num//2)+1):
     number.append(x)
     x -= 1

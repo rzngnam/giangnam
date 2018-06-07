@@ -4,6 +4,7 @@ speed(0)
 colors = ['red', 'blue', 'brown', 'yellow', 'grey']
 mau = 0
 
+
 for _ in range(5):
     fillcolor(colors[mau])
     pencolor(colors[mau])
